@@ -1,0 +1,2 @@
+d g b a e c f
+g d b e f c a
