@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int maxn = 5e2 + 5;
+const int maxn = 1e3 + 5;
 typedef pair<int, int> PII;
-vector<PII> arr[maxn];
+#define UM unordered_map
+UM<int,vector<PII>> arr;
 int p[maxn], dis[maxn], pre[maxn];
 int cnt[maxn], sum[maxn];
 bool vis[maxn];
